@@ -345,3 +345,240 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+/* media query  */
+/* max width of 786px */
+@media (max-width: 768px) {
+    body {
+    width: 100vw;
+    }
+    div.nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem 6rem;
+    
+    background: #304353;
+    overflow: hidden;
+    padding-top: 1rem;
+}
+ul.nav-links {
+    display: block;
+    margin: 0;
+    padding: 0.6rem;
+}
+ul li {
+    margin: 0;
+    list-style: none;
+    font-size: 1.1rem;
+}
+
+/* team cards header */
+div.snapshot-team {
+    background: #f0f0f0;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+div.snapshot-team h2 {
+    color: #555657;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+div.snapshot-team p {
+    color: #A6A5AA;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding-top: 0.8rem;
+}
+/* hero card */
+div.background {
+    background: #fff;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    padding: 20px;
+    width: 90vw;
+    position: relative;
+}
+div.background p {
+    color: #A6A5AA;
+    padding-left: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+div.hero-background-pos {
+    position: absolute;
+    right: 0px;
+    left: 76%;
+    background: #fff;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+/* team card content */
+div.snapshot-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 4rem;
+}
+
+div.snapshot-box-content {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    align-items: center;
+}
+div.circle {
+    display: flex;
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #bcc3c7;
+    margin-top: 2rem;
+    
+}
+div.box1, div.box3{
+    padding: 10px 20px;
+    width: 45%;
+    border-radius: 2px;
+}
+}
+
+/* max width of 540px */
+@media (max-width: 540px) {
+    /* hero section */
+    div.hero-section {
+    background: #304353;
+    padding: 8rem 2rem;
+    text-align: center;
+}
+    div.snapshot-team p {
+    color: #A6A5AA;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    padding-top: 0.8rem;
+    width: 90vw;
+}
+    /* hero card */
+div.background {
+    background: #fff;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    padding: 1rem;
+    width: 90vw;
+    height: 100%;
+    position: relative;
+}
+div.background p {
+    color: #A6A5AA;
+    padding-left: 2rem;
+    font-size: 0.8rem;
+    letter-spacing: 2px;
+}
+
+div.hero-background-pos {
+    position: absolute;
+    right: 0px;
+    left: 75%;
+    background: #fff;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+
+/* team card content */
+div.snapshot-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f0f0f0;
+    padding: 4rem;
+}
+
+div.snapshot-box-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+div.circle {
+    display: flex;
+    margin: 0 auto;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #bcc3c7;
+    margin-top: 2rem;
+    
+}
+div.box1, div.box3{
+    margin: 1rem;
+    padding: 10px 20px;
+    width: 90vw;
+    border-radius: 2px;
+}
+div.footer-content p {
+    text-align: left;
+}
+div.footer-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+    margin-bottom: 10px; 
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+input[type="email"] {
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+::placeholder {
+    color: #A6A5AA;
+}
+
+div.footer-textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 0.5rem;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
+}
+}
