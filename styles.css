@@ -511,10 +511,11 @@ div.nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
+    padding: 2rem;
     background: #304353;
     overflow: hidden;
     padding-top: 1rem;
+    width: 100vw;
 }
 .nav-links {
     display: none;
